@@ -1,0 +1,46 @@
+.backTop {
+    width: 100px;
+    height: 60px;
+    background-color: skyblue;
+    line-height: 60px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    &.show {
+        animation: show 1s;
+        display: block !important;
+    }
+
+    &.hidden {
+        // 隐藏闪现
+        animation: hidden 1s;
+        display: none;
+    }
+}
+
+// 默认静态样式
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        display: block !important;
+    }
+}
+
+@keyframes hidden {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.backTop:hover {
+    color: white;
+}
