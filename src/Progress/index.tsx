@@ -2,6 +2,7 @@ import React, { FC, memo, useMemo } from 'react';
 import { ProgressProps, NativeProgressProps } from './interface';
 import css from './Progress.module.less';
 const Progress: FC<ProgressProps & NativeProgressProps> = memo((props) => {
+  
   let { percent, strokeColor, status, showInfo } = props;
 
   const statusStyle = useMemo(() => {
@@ -47,10 +48,7 @@ const Progress: FC<ProgressProps & NativeProgressProps> = memo((props) => {
     <div className={css['line']}>
       <div className={css['line_outer']}>
         <div className={css.line_inner}>
-          <div
-            className={status === 'active' ? css['line_bg_show'] : css['line_bg']}
-            style={statusStyle}
-          ></div>
+          <div className={status === 'active' ? css['line_bg_show'] : css['line_bg']}style={statusStyle}></div>
         </div>
       </div>
 

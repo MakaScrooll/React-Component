@@ -1,5 +1,5 @@
 ---
-title: Notification 消息提示
+title: Notification 通知
 nav:
   title: 通用
   path: /component
