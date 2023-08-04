@@ -27,3 +27,4 @@ Alert 组件提供了两个不同的主题：LimeGreen、Goldenrod、CoolGray、
 ## 自定义关闭按钮
 自定义关闭按钮为文字或其他符号。
 <code src="./demo/index4.tsx" />
+<API>

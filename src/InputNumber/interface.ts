@@ -7,19 +7,19 @@ export interface InputNumberProps {
 
    /**
       * @description 最大值
-      * @default --
+      * @default 10
       */
    max?: any
 
    /**
      * @description 最小值
-     * @default --
+     * @default 1
      */
    min?: any
 
    /**
     * @description 计数器步长
-    * @default --
+    * @default 2
     */
    step?: any
 
@@ -36,7 +36,8 @@ export interface InputNumberProps {
    placeholder?: string
    /**
      * @description 精度计数器	
-    * @default --
+    * @default 0.1
     */
    precision?: any
+   
 }

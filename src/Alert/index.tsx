@@ -13,10 +13,11 @@ const Alert: FC<AlertProps> = (props) => {
     const [falg, setFlag] = useState(false)
 
     const backgroundColor = {
-        LimeGreen: 'limegreen',
-        CoolGray: 'grey',
-        Goldenrod: 'goldenrod',
-        Coral: 'coral'
+        LimeGreen: LimeGreen ? LimeGreen : 'limeGreen',
+        CoolGray: CoolGray ? CoolGray : 'grey',
+        Goldenrod: Goldenrod ? Goldenrod : 'goldenrod',
+        Coral: Coral ? Coral : 'coral'
+
     }
     const handler = () => {
         setFlag(true)
