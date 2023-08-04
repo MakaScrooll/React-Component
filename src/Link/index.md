@@ -1,10 +1,10 @@
 ---
 title: Link文字链接
 nav:
-  title: 通用
+  title: Basic 基础组件
   path: /component
 group:
-  path: /component
+  path: /Basic
 ---
 
 # 基本使用

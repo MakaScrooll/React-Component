@@ -1,7 +1,8 @@
-  import React, { useMemo, useState, useRef } from "react";
+import React, { useMemo, useState, useRef, FC } from "react";
 import Css from './time.module.less'
 import { TimeProps } from './interface';
-export default ({ handler, resetHandle, WatchTime, width, height }: TimeProps) => {
+const Time: FC<TimeProps> = ({ handler, resetHandle, WatchTime, width, height }) => {
+
   let [total, setTotal] = useState(0)
   let [flag, setFlag] = useState(true)
   let timer: any = useRef()
@@ -71,3 +72,5 @@ export default ({ handler, resetHandle, WatchTime, width, height }: TimeProps) =
     </div>
   )
 }
+
+export default Time

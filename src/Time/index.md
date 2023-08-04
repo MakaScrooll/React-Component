@@ -1,13 +1,13 @@
 ---
-title: Time 组件
+title: Time 秒表
 nav:
-    title: 通用
+    title: Feature 功能组件
     path: /component
 group:
     path: /component
 ---
 
-# Time
+# Time 秒表
 
 ## 基本使用
 <code src='./demo/index1.jsx'>

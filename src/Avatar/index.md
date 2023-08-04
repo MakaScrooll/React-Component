@@ -1,10 +1,10 @@
 ---
 title: Avatar 头像
 nav:
-  title: Data 数据展示
+  title: Basic 基础组件
   path: /component
 group:
-  path: /component
+  path: /Basic
 ---
 
 # Avatar 头像

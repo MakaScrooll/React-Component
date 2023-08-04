@@ -1,5 +1,5 @@
 import React from "react";
-import Time from '../index'
+import Time from '..'
 export default () => {
   let starthandler = (flag) => {
     if (flag) {

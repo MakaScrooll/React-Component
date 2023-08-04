@@ -17,7 +17,6 @@ const InputNumber: FC<InputNumberProps> = memo((props) => {
 
     const add = () => {
         setCount(prevState => typeof prevState === 'number' ? prevState + (step || 1) : 1);
-        console.log(count);
     };
 
     let del = () => {

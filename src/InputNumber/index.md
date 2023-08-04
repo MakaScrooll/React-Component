@@ -1,10 +1,10 @@
 ---
 title: InputNumber 计数器
 nav:
-  title: 通用
-  path: /component
+    title: Feature 功能组件
+    path: /component
 group:
-  path: /component
+    path: /component
 ---
 
 # InputNumber 计数器

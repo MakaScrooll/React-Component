@@ -18,6 +18,7 @@ const Collapse: FC<CollapseProps> = memo((props) => {
         if (state) {
             setNum(index)
         }
+        
     }
     return (
         <div className={css.container}>
